@@ -97,29 +97,6 @@ wp_reset_query(); ?>
 		</div><!--END#left_box-->
 		
 		<div id="right_box">
-			<div id="live_interface">
-			<!-- link to the live interface -->
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td><a href="http://1904.cc/live/mainframe.html"><img src="http://10111.org/~aether/1/x1.jpg" width="64" height="48" border="0" /></a></td>
-    <td><a href="http://1904.cc/live/mainframe.html"><img src="http://10111.org/~aether/2/x1.jpg" width="64" height="48" border="0" /></a></td>
-    <td><a href="http://1904.cc/live/mainframe.html"><img src="http://10111.org/~aether/3/x1.jpg" width="64" height="48" border="0" /></a></td>
-  </tr>
-  <tr>
-    <td><a href="http://1904.cc/live/mainframe.html"><img src="http://10111.org/~aether/1/x4.jpg" width="64" height="48" border="0" /></a></td>
-    <td><a href="http://1904.cc/live/mainframe.html"><img src="http://cave12.org/~aether/5/x1.jpg" width="64" height="48" border="0" /></a></td>
-    <td><a href="http://1904.cc/live/mainframe.html"><img src="http://cave12.org/~aether/6/x1.jpg" width="64" height="48" border="0" /></a></td>
-  </tr>
-  <tr>
-    <td><a href="http://1904.cc/live/mainframe.html"><img src="http://cave12.org/~aether/7/x1.jpg" width="64" height="48" border="0" /></a></td>
-    <td><a href="http://1904.cc/live/mainframe.html"><img src="http://10111.org/~aether/1/x8.jpg" width="64" height="48" border="0" /></a></td>
-    <td><a href="http://1904.cc/live/mainframe.html"><img src="http://10111.org/~aether/1/x9.jpg" width="64" height="48" border="0" /></a></td>
-  </tr>
-</table>
-			<h2><a href="http://1904.cc/live/mainframe.html">open live interface &gt;&gt;&gt;</a> </h2>
-			
-			<!-- end link to the live interface -->
-			</div>
 			<div id="right_top">
 					<?php query_posts('page_id=2');
 					global $more;
